@@ -1,0 +1,327 @@
+@font-face {
+  font-family: "Forma DJR Micro";
+  src: url("forma-djr-micro.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+.zhp {
+  margin-left: 5px;
+  width: 3.1%;
+  height: auto;
+}
+.omen {
+  margin-left: 26px;
+  width: 6.1%;
+  height: auto;
+}
+.poly {
+  margin-left: 26px;
+  width: 3.9%;
+  height: auto;
+}
+.form-control {
+  width: 441px;
+  height: 45px;
+  border-radius: 0;
+  margin-right: 0;
+}
+.nav-item{
+    font-size: 20px;
+    color: #797978;
+}
+.navbar-brand {
+  width: 48px;
+}
+.firstheader {
+  background-color: #f5f5f5;
+  height: 34px;
+}
+.small3imagesB {
+  display: flex;
+}
+.shoppingCart{
+    width: 29.96px;
+    height: 25.6px;
+}
+.SearchIcon{
+    background-color: transparent;
+  margin: 0;
+  cursor: pointer;
+  height: 45px;
+  border: none;
+  color: rgb(91,91,90);
+  margin-left: -2.5rem;
+  display: flex;
+  align-items: center;
+}
+.sign-in{
+    background-color: black;
+    color: white;
+    border-radius: 0;
+    width: 93px;
+  height: 33px;
+  font-size: 16px;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.acc-icon{
+    display: none;
+    border: none;
+    background-color: transparent;
+}
+.acc-icon img{
+padding-top: 5px;
+}
+.backgroundImageContainer{
+  background-image: url('https://www.hp.com/content/dam/sites/worldwide/homepage/images/banners/scuderia-ferrari-hp-desktop.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 80vh;
+}
+.ftext {
+  position: absolute;
+  top: 49%;
+  color: white;
+  font-size: 275%;
+  padding-left: 5%;
+}
+.stext{
+  position: absolute;
+  top: 75%;
+  left: 5%;
+  color: white;
+  font-size: 150%;
+}
+.learn{
+  position: absolute;
+  top: 85%;
+  left: 5%;
+}
+.learn button{
+  font-family: "Forma DJR Micro", Arial, sans-serif;
+  width: 75px;
+  height: 30px;
+}
+.heythere {
+  
+  font-size: 45px;
+  font-family: "Forma DJR Micro", Arial, sans-serif;
+  margin-top: 3rem;
+}
+.horizontal-line{
+  color: black;
+  height: 2px;
+}
+.help {
+  
+  font-size: xx-large;
+  font-family: "Forma DJR Micro", Arial, sans-serif;
+  margin-top: 10px;
+}
+.divider{
+  border: none;
+    height: 0.8px; 
+    background-color: #000;
+}
+@media (min-width: 1200px) {
+  .small3imagesB {
+    display: none;
+
+  }
+  .backgroundImageContainer{
+      background-image: url('https://www.hp.com/content/dam/sites/worldwide/homepage/images/banners/scuderia-ferrari-hp-desktop.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+      height: 100vh;
+}
+}
+@media (max-width: 1200px) {
+    .firstheader{
+        display: none;
+      }
+
+    .container .navbar .navbar-collapse{
+        display: none;
+    }
+    .container{
+        max-width: 1171px;
+    }
+    .form-control{
+        display: none;
+    }
+    .toggle-button{
+        position: absolute;
+        align-items: end;
+        right: 0;
+    }
+    .sign-cart{
+        margin-right: 3.5rem;
+    }
+    .backgroundImageContainer{
+      background-image: url('https://www.hp.com/content/dam/sites/worldwide/homepage/images/banners/scuderia-ferrari-hp-desktop.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+      height: 130vh;
+    }
+    }
+
+    @media (max-width: 718px){
+        .sign-in{
+            display: none;
+        }
+        .acc-icon{
+            display: flex;
+        }
+        .heythere {
+          font-size: 30px;
+          font-family: "Forma DJR Micro", Arial, sans-serif;
+          margin-top: 3rem;
+        }
+        .help {
+          font-size: large;
+          font-family: "Forma DJR Micro", Arial, sans-serif;
+          margin-top: 10px;
+        }
+        
+    }
+    @media (max-width: 787px){
+    .ftext{
+      position: absolute;
+      top: 49%;
+      color: white;
+      font-size: 225%;
+      padding-left: 5%;
+    }
+    .stext{
+      position: absolute;
+      top: 75%;
+      left: 5%;
+      color: white;
+      font-size: 125%;
+    }
+  }
+    @media (max-width: 716px){
+      .img-d{
+        margin: auto;
+        }
+    }
+
+    .backgroundImageContainer{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    } 
+    .backgroundImageContainer img{
+      width: 100%;
+      object-fit: cover;
+      display: flex;
+      align-items: center;
+      background-position: center;
+      justify-content: center;
+
+    }
+    .crd{
+      align-items: center;
+      display: flex;
+      justify-content: center;
+  
+    }
+    .banner{
+      height: 55px;
+      background-color: #212237;
+      color: white;
+      font-size: 28px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Forma DJR Micro", Arial, sans-serif;
+      margin-top: -4px;
+    }
+    .card{
+      border-radius: 0;
+      border: black 1px solid;
+      margin: 8px;
+    }
+    .wsHeader{
+      font-family: "Forma DJR Micro", Arial, sans-serif;
+      font-size: 37px;
+    }
+.wsSecondtext{
+  font-family: "Forma DJR Micro", Arial, sans-serif;
+  font-size: 19px;
+}
+.learn2 button {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  border: none;
+  font-family: "Forma DJR Micro", Arial, sans-serif;
+  width: 107px;
+  height: 43px;
+  margin-top: 2em;
+  font-size: 16px;
+}
+.footerOneA{
+  font-size: 27px;
+  font-family: "Forma DJR Micro", Arial, sans-serif;
+}
+.footerOneB button{
+    background-color: white;
+    color: black;
+    border: none;
+    width: 103.64px;
+    height: 43px;
+    font-size: medium;
+}
+.divider-invert{
+  border: none;
+    height: 0.8px; 
+    background-color: white;
+}
+.nationality{
+  font-family: "Forma DJR Micro", Arial, sans-serif;
+}
+.nationality img{
+  width: 17px;
+  height: 16.8px;
+}
+.noRow{
+  display: flex;
+}
+@media (max-width: 575px) {
+  .fivecolumns{
+    display: flex;
+        justify-content: center;
+  }
+  .noRow{
+    display: block;
+  }
+}
+@media (max-width: 610px) {
+  .ftext{
+    position: absolute;
+    top: 49%;
+    color: white;
+    font-size: 175%;
+    padding-left: 5%;
+  }
+  .stext{
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    color: white;
+    margin-top: 5px;
+    font-size: 75%;
+  }
+}
+
+
+
+
